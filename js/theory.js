@@ -92,84 +92,74 @@
 
 // console.log(calculate(2,3));
 
-function calculator() {
-<<<<<<< HEAD
-    let greet = prompt("Добро пожаловать в импровизированный калькулятор!\n"  +
-                       "Нажмите +, чтобы сложить;\n" + 
-                       "-, чтобы вычесть;\n" +
-                       "*, чтобы умножить;\n" +
-                       "/, чтобы поделить;\n" +
-                       "**, чтобы возвести в степень;", "");
-=======
-    let greet = prompt("Добро пожаловать в импровизированный калькулятор!"  +
-                       " Нажмите +, чтобы сложить;" + 
-                       " -, чтобы вычесть;" +
-                       " *, чтобы умножить;" +
-                       " /, чтобы поделить;" +
-                       " **, чтобы возвести в степень;", "");
->>>>>>> master
 
-    const multiply = function () {
-        alert("Введите два числа чтобы умножить.");
-        let a = +prompt("Первое число:", ""),
-            b = +prompt("Второе число:", ""),
-            c = a * b;
-        alert("Ваш результат: " + c);
-    };
-    const divide = function () {
-        alert("Введите два числа чтобы разделить.");
-        let a = +prompt("Первое число:", ""),
-            b = +prompt("Второе число:", ""),
-            c = a / b;
-        alert("Ваш результат: " + c);
-    };
-    const fold = function () {
-        alert("Введите два числа чтобы сложить.");
-        let a = +prompt("Первое число:", ""),
-            b = +prompt("Второе число:", ""),
-            c = a + b;
-        alert("Ваш результат: " + c);
-    };
-    const deduct = function () {
-        alert("Введите два числа чтобы вычесть.");
-        let a = +prompt("Первое число:", ""),
-            b = +prompt("Второе число:", ""),
-            c = a - b;
-        alert("Ваш результат: " + c);
-    };
-    const stage = function () {
-        alert("Введите два числа чтобы возвести в степень.");
-        let a = +prompt("Возводимое число:", ""),
-            b = +prompt("Степень:", ""),
-            c = a ** b;
-        alert("Ваш результат: " + c);
-    };
-    for (let i = 0; i < 1; i++) {
-        if (greet == "*") {
-            multiply();
-        }else if (greet == "/") {
-            divide();
-        }else if (greet == "+") {
-            fold();
-        }else if (greet == "-") {
-            deduct();
-        }
-        else if (greet == "**") {
-            stage();
-        }
-        let yet = +prompt("Хотите еще что-то посчитать?(1 - да, 2 - нет)");
-        if (yet == 1) {
-            greet = prompt("Выберите знак: *, /, +, -");
-            i--;
-        }else {
-            alert("Пака лалка(.Y.)");
-            i = 1;
-        }
-    }
-}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+//* Калькулятор
+// function calculator() {
+//     let greet = prompt("Добро пожаловать в импровизированный калькулятор!\n"  +
+//                        "Нажмите +, чтобы сложить;\n" + 
+//                        "-, чтобы вычесть;\n" +
+//                        "*, чтобы умножить;\n" +
+//                        "/, чтобы поделить;\n" +
+//                        "**, чтобы возвести в степень;", "");
+
+//     const multiply = function () {
+//         alert("Введите два числа чтобы умножить.");
+//         let a = +prompt("Первое число:", ""),
+//             b = +prompt("Второе число:", ""),
+//             c = a * b;
+//         alert("Ваш результат: " + c);
+//     };
+//     const divide = function () {
+//         alert("Введите два числа чтобы разделить.");
+//         let a = +prompt("Первое число:", ""),
+//             b = +prompt("Второе число:", ""),
+//             c = a / b;
+//         alert("Ваш результат: " + c);
+//     };
+//     const fold = function () {
+//         alert("Введите два числа чтобы сложить.");
+//         let a = +prompt("Первое число:", ""),
+//             b = +prompt("Второе число:", ""),
+//             c = a + b;
+//         alert("Ваш результат: " + c);
+//     };
+//     const deduct = function () {
+//         alert("Введите два числа чтобы вычесть.");
+//         let a = +prompt("Первое число:", ""),
+//             b = +prompt("Второе число:", ""),
+//             c = a - b;
+//         alert("Ваш результат: " + c);
+//     };
+//     const stage = function () {
+//         alert("Введите два числа чтобы возвести в степень.");
+//         let a = +prompt("Возводимое число:", ""),
+//             b = +prompt("Степень:", ""),
+//             c = a ** b;
+//         alert("Ваш результат: " + c);
+//     };
+//     for (let i = 0; i < 1; i++) {
+//         if (greet == "*") {
+//             multiply();
+//         }else if (greet == "/") {
+//             divide();
+//         }else if (greet == "+") {
+//             fold();
+//         }else if (greet == "-") {
+//             deduct();
+//         }
+//         else if (greet == "**") {
+//             stage();
+//         }
+//         let yet = +prompt("Хотите еще что-то посчитать?(1 - да, 2 - нет)");
+//         if (yet == 1) {
+//             greet = prompt("Выберите знак: *, /, +, -");
+//             i--;
+//         }else {
+//             alert("Пака лалка(.Y.)");
+//             i = 1;
+//         }
+//     }
+// }
 
 //* callback функции
 // function learnJS(lang, callback) {
@@ -343,9 +333,7 @@ function calculator() {
 // console.log(john);
 // console.log(john.armor);
 // john.sayHello();
-=======
-calculator();
->>>>>>> master
+
 
 //* callback функции
 // function learnJS(lang, callback) {
@@ -516,10 +504,6 @@ calculator();
 // john.__proto__ = soldier;
 // Object.setPrototypeOf(john, soldier);
 
-<<<<<<< HEAD
 // console.log(john);
 // console.log(john.armor);
 // john.sayHello();
-=======
->>>>>>> master
->>>>>>> master
