@@ -71,3 +71,4 @@ const personalMovieDB = {
 // personalMovieDB.rememberMyFilms();
 // personalMovieDB.showMyDB();
 // personalMovieDB.writeYourGenres();
+alert('sdgfdf');
