@@ -1,5 +1,76 @@
 body {
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(0, 255, 170);
     color: #fff;
     margin: 20px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    font-weight: 900;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(245, 30, 30);
+    background-color: rgb(186, 107, 240);
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.heart {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #ff0000;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin :100% 100%;
+}
+
+.black {
+    background-color: #000;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    text-align: center;
 }

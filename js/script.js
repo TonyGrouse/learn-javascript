@@ -70,5 +70,9 @@ const personalMovieDB = {
 // personalMovieDB.detectPersonalLevel();
 // personalMovieDB.rememberMyFilms();
 // personalMovieDB.showMyDB();
+<<<<<<< HEAD
+// personalMovieDB.writeYourGenres();
+=======
 // personalMovieDB.writeYourGenres();
 alert('sdgfdf');
+>>>>>>> refs/remotes/origin/master
