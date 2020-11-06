@@ -335,23 +335,23 @@ function calculator() {
 // john.sayHello();
 
 
-const text = document.getElementById('git'),// Ищем по документу
-      btns = document.getElementsByTagName('button'),
-      wrapper = document.querySelector('.wrapper'),
-      hearts = wrapper.querySelectorAll('.heart'),// Ищем конкретно у родителя wrapper
-      firstHeart = wrapper.querySelector('.heart');// Ищем конкретно у родителя wrapper
+// const text = document.getElementById('git'),// Ищем по документу
+//       btns = document.getElementsByTagName('button'),
+//       wrapper = document.querySelector('.wrapper'),
+//       hearts = wrapper.querySelectorAll('.heart'),// Ищем конкретно у родителя wrapper
+//       firstHeart = wrapper.querySelector('.heart');// Ищем конкретно у родителя wrapper
 
-text.style.cssText = "background-color: #0026ff; width: 400px;";
+// text.style.cssText = "background-color: #0026ff; width: 400px;";
 
-hearts.forEach(item => {
-    item.style.cssText = "border: 2px solid #8400ff; padding-top: 10px;";
-});
+// hearts.forEach(item => {
+//     item.style.cssText = "border: 2px solid #8400ff; padding-top: 10px;";
+// });
 
-const div = document.createElement('div');
-div.classList.add('black');
-wrapper.append(div);
-div.innerHTML = "<h3>Hello World!</h3>";
-div.insertAdjacentHTML("beforeend", '<h4>Hello</h4>');
+// const div = document.createElement('div');
+// div.classList.add('black');
+// wrapper.append(div);
+// div.innerHTML = "<h3>Hello World!</h3>";
+// div.insertAdjacentHTML("beforeend", '<h4>Hello</h4>');
 
 // hearts[0].before(div);
 // hearts[0].after(div);
