@@ -160,6 +160,7 @@ function calculator() {
         }
     }
 }
+calculator();
 
 //* callback функции
 // function learnJS(lang, callback) {
